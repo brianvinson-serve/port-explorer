@@ -1,1 +1,116 @@
-{ "activities": [] }
+{
+  "activities": [
+    {
+      "id": "salerno-duomo-old-town",
+      "port": "Salerno",
+      "name": "Salerno Duomo and Old Town Walk",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 5,
+      "duration": "2-3 hrs",
+      "description": "Self-guided walk through Salerno's medieval quarter to the 11th-century Arab-Norman cathedral and its ancient crypt.",
+      "detail": "From the Stazione Marittima cruise pier it is a flat 15-minute walk along the waterfront into the centro storico. The Duomo di San Matteo dominates the hilltop, its Romanesque facade framing a courtyard of 28 ancient columns. Inside, the crypt holds the relics of St. Matthew and gleams with 13th-century mosaics. The surrounding lanes of Via dei Mercanti and Via Duomo fill up with pastry shops, aperitivo bars, and local ceramic stalls. Pair the cathedral with a quick detour to the medieval Arechi Castle viewpoint above. Entry to the cathedral nave is free; crypt access costs a few euros at the door.",
+      "bookingNote": "No booking needed. Duomo crypt entry is 3 to 4 euros payable at the door. The old town is entirely walkable from the pier.",
+      "tags": ["history", "walking", "architecture"],
+      "viatorUrl": null
+    },
+    {
+      "id": "salerno-lungomare-promenade",
+      "port": "Salerno",
+      "name": "Lungomare Trieste Promenade",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 3,
+      "duration": "1-2 hrs",
+      "description": "A leisurely stroll along one of southern Italy's finest seaside promenades, with views across the Gulf of Salerno toward the Amalfi Coast.",
+      "detail": "The Lungomare Trieste stretches more than two kilometers directly from the cruise terminal, flanked by palm trees, Belle Epoque lampposts, and a long row of seafront bars. On a clear morning the Amalfi cliffs are visible across the water. Stop at any of the waterfront caffes for a cornetto and espresso. The promenade connects seamlessly to the centro storico at its eastern end and to the fishing harbor at its western end. Budget roughly 3 to 5 euros for a coffee and pastry. No tickets, no planning required.",
+      "bookingNote": "Completely free to walk. Budget a few euros for coffee or gelato at one of the promenade bars.",
+      "tags": ["walking", "views", "waterfront"],
+      "viatorUrl": null
+    },
+    {
+      "id": "salerno-giardino-della-minerva",
+      "port": "Salerno",
+      "name": "Giardino della Minerva Botanical Garden",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 7,
+      "duration": "1-2 hrs",
+      "description": "A terraced medieval botanical garden above the old town, linked to Europe's first medical school, with sweeping views over the Gulf of Salerno.",
+      "detail": "The Giardino della Minerva clings to the hillside above Via Mercanti and is reached by a short climb through narrow alleyways from the Duomo. Established in the 13th century as a teaching garden for the Salerno Medical School, the terraces hold hundreds of labeled medicinal plants arranged by the four Hippocratic humours. The admission ticket also covers the small on-site museum and a virtual reality exhibit on the Scuola Medica Salernitana. Peak bloom is April through June. The views from the upper terraces over the terracotta rooftops and the gulf are among the best in the city. Allow 60 to 90 minutes. Closed on Mondays.",
+      "bookingNote": "Tickets are 6 euros for adults and are purchased at the garden entrance. No advance booking is needed, but check that it is not a Monday before visiting.",
+      "tags": ["history", "walking", "views", "gardens"],
+      "viatorUrl": null
+    },
+    {
+      "id": "salerno-amalfi-positano-sita-bus",
+      "port": "Salerno",
+      "name": "Amalfi and Positano by SITA Bus",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 35,
+      "duration": "half day",
+      "description": "Ride the iconic cliffside SITA bus along the Amalfi Coast to Amalfi town or onward to Positano, the most scenic public transit in Italy.",
+      "detail": "SITA SUD buses depart from Salerno's Piazza della Concordia, a 10-minute walk from the cruise pier, roughly every 30 to 60 minutes along the SS163 coast road. The one-way ticket to Amalfi is about 2.80 euros; a 24-hour unlimited COSTIERASITA pass is 10 euros if you plan multiple stops. The ride to Amalfi takes around 75 minutes on the winding coastal road. From Amalfi, another bus or a 45-minute ferry continues to Positano. In Amalfi town, the cathedral of Sant'Andrea charges 3 euros to enter its crypt. Budget roughly 10 to 15 euros for transport plus 15 to 20 euros for lunch and incidentals. Buy tickets before boarding at any tabaccheria displaying the SITA SUD logo since tickets cannot be purchased on the bus. The coast road gets congested in peak summer, so factor in buffer time.",
+      "bookingNote": "No advance booking needed. Buy a 10-euro COSTIERASITA day pass at any tabaccheria near the port before boarding. Return buses to Salerno run until early evening.",
+      "tags": ["scenic", "coast", "transport", "villages"],
+      "viatorUrl": null
+    },
+    {
+      "id": "salerno-ravello-villa-rufolo",
+      "port": "Salerno",
+      "name": "Ravello and Villa Rufolo Gardens",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 45,
+      "duration": "half day",
+      "description": "A half-day trip to the hilltop village of Ravello and its famous 13th-century villa gardens that inspired Wagner's Parsifal.",
+      "detail": "From Salerno, take the SITA bus to Amalfi (about 75 minutes) and connect to the Ravello bus from outside Amalfi's Piazza Flavio Gioia (roughly 30 to 40 minutes, every hour). Ravello sits 350 meters above the coast and rewards the journey with extraordinary views and a quiet atmosphere compared to Amalfi and Positano. Villa Rufolo's terraced gardens overlook the Gulf of Salerno from a belvedere that Richard Wagner called the enchanted garden of Klingsor. Admission is 8 euros at the gate; no advance booking required for standard garden entry. During the summer Ravello Festival (July through September) the villa hosts open-air concerts on the famous cliff-edge stage. The adjacent Villa Cimbrone gardens (8 euros separately) are equally stunning. Budget roughly 10 euros for transport, 8 euros for villa entry, and 20 euros for lunch in Ravello.",
+      "bookingNote": "No booking required for Villa Rufolo garden admission; tickets are sold at the gate for 8 euros. Allow 4 to 5 hours round trip from the cruise pier.",
+      "tags": ["history", "gardens", "views", "villages"],
+      "viatorUrl": null
+    },
+    {
+      "id": "salerno-pompeii-half-day-shared",
+      "port": "Salerno",
+      "name": "Pompeii Ruins Half-Day Shared Tour",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 65,
+      "duration": "half day",
+      "description": "Small-group guided tour to the UNESCO-listed ruins of Pompeii with skip-the-line entry, departing directly from the Salerno cruise port.",
+      "detail": "Several Viator-listed operators run small-group tours (up to 25 passengers) that pick up at the Salerno Stazione Marittima and drive north to Pompeii in an air-conditioned minibus, taking about 45 minutes. Skip-the-line entry tickets are included. A licensed archaeologist guide leads the group through the Forum, the Lupanar, the House of the Faun, and the plaster cast gallery for two to three hours. The standard adult admission to Pompeii is 20 euros; the shared tour packages it with transport and guiding for around 60 to 70 euros per person total. Half-day format returns passengers to the pier by early afternoon, leaving time for a Salerno stroll. Booking ahead is strongly recommended in peak summer months as small-group slots fill quickly.",
+      "bookingNote": "Book through Viator or a reputable Salerno port excursion desk at least a few days in advance, especially in June through September. Look for tours that explicitly state port pickup at Salerno Stazione Marittima.",
+      "tags": ["history", "archaeology", "guided-tour"],
+      "viatorUrl": "https://www.viator.com/tours/Salerno/Pompeii-half-day-trip-from-Salerno/d4736-2958P64"
+    },
+    {
+      "id": "salerno-pompeii-amalfi-coast-combo",
+      "port": "Salerno",
+      "name": "Pompeii and Amalfi Coast Combo Shore Excursion",
+      "tier": "$$$",
+      "transport": "transport",
+      "estimatedCost": 110,
+      "duration": "full day",
+      "description": "Full-day guided excursion combining skip-the-line Pompeii with an afternoon drive along the Amalfi Coast, with port pickup included.",
+      "detail": "This is one of the most popular cruise excursions sold out of Salerno. A licensed guide meets the group at the pier, drives to Pompeii for a two-hour guided walk through the ruins with priority access tickets, then loops back along the Amalfi Coast road with stops in Amalfi town and optionally Ravello or Positano depending on the operator. The full day runs eight to nine hours. Viator lists several versions of this itinerary in the 95 to 125 dollar range per person. The Pompeii and Amalfi Coast Private Shore Excursion from Salerno (Viator product d4736-102368P4) is a highly rated option. Lunch is not always included; check the specific listing. Because the tour ties directly to ship departure times, operators guarantee return to the pier before the ship sails.",
+      "bookingNote": "Book through Viator or a port excursion operator before sailing. Tour operators guarantee return to the pier before departure, which independent transport cannot promise.",
+      "tags": ["history", "archaeology", "coast", "guided-tour"],
+      "viatorUrl": "https://www.viator.com/tours/Salerno/Skip-the-line-Pompeii-and-Amalfi-Coast-Shore-Excursion-from-Salerno-Cruise-Port/d4736-102368P4"
+    },
+    {
+      "id": "salerno-private-amalfi-coast-driver",
+      "port": "Salerno",
+      "name": "Private Full-Day Amalfi Coast Driver",
+      "tier": "$$$$",
+      "transport": "transport",
+      "estimatedCost": 200,
+      "duration": "full day",
+      "description": "A chauffeured full-day tour of Positano, Amalfi, and Ravello in a private air-conditioned vehicle with an expert local driver at your own pace.",
+      "detail": "Private drivers based in Salerno offer door-to-door service starting from the cruise terminal, visiting Positano, Amalfi, and Ravello on a fully flexible itinerary. Typical full-day packages run eight to nine hours and accommodate two to eight passengers per vehicle. Pricing is usually quoted per vehicle rather than per person, making the per-person cost drop sharply with a group: a vehicle carrying four passengers at 600 to 700 euros total works out to roughly 150 to 175 euros per person. Solo or couple bookings run higher. Operators such as AmalfiDriver.com and Dreaming Amalfi Coast have established reputations and English-speaking drivers. The Viator listing for the Private Stress Free Tour of the Amalfi Coast from Salerno starts around 450 euros per vehicle. Entrance fees to individual sites are not included. This option is the only format that lets you stop spontaneously at scenic pull-outs, skip crowds at will, and customise the route entirely.",
+      "bookingNote": "Book directly with a private driver service such as AmalfiDriver.com or Dreaming Amalfi Coast, or through Viator. Confirm the pickup point is the Salerno cruise terminal. Rates are quoted per vehicle, so the per-person cost drops significantly with a group of four or more.",
+      "tags": ["coast", "scenic", "private", "views"],
+      "viatorUrl": "https://www.viator.com/tours/Salerno/Private-tour-of-the-Amalfi-coast-from-Salerno/d4736-53750P3"
+    }
+  ]
+}
