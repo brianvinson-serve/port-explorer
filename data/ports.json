@@ -69,7 +69,7 @@
       "tags": [
         "scenic",
         "coast",
-        "transport",
+        "bus",
         "villages"
       ],
       "viatorUrl": null
@@ -636,7 +636,7 @@
       "estimatedCost": 60,
       "duration": "4-5 hrs",
       "description": "A shared speedboat tour calling at the crystal-clear Blue Lagoon off Drvenik Island for swimming, plus stops at Trogir and two smaller islands.",
-      "detail": "The Blue Lagoon, a sheltered turquoise cove between Drvenik Veliki and Krknjas Mali islands about 30 kilometers northwest of Split, is the most popular half-day boat destination from the port. Shared speedboat tours depart from Split's Riva waterfront daily throughout summer, typically at 9 am and 2 pm, carrying 10 to 20 passengers in open speedboats. The standard half-day circuit includes a 90-minute swim stop at the Blue Lagoon (water visibility reaches 15 to 20 meters), a brief stop in Trogir's UNESCO old town on the return leg, and passage past Solta and Ciovo islands. Snorkeling masks are sometimes included; check before booking. Tour prices in 2026 run from 55 to 70 euros per person for the shared group format, placing the experience firmly in the $$ tier. The $60 estimate is the mid-range figure. Lunch and drinks are not typically included on half-day tours, though some operators offer an optional packed lunch add-on. Viator lists this itinerary at d4185-20288P5.",
+      "detail": "The Blue Lagoon, a sheltered turquoise cove between Drvenik Veliki and Krknjas Mali islands about 30 kilometers northwest of Split, is the most popular half-day boat destination from the port. Shared speedboat tours depart from Split's Riva waterfront daily throughout summer, typically at 9 am and 2 pm, carrying 10 to 20 passengers in open speedboats. The standard half-day circuit includes a 90-minute swim stop at the Blue Lagoon (water visibility reaches 15 to 20 meters), a brief stop in Trogir's UNESCO old town on the return leg, and passage past Solta and Ciovo islands. Snorkeling masks are sometimes included; check before booking. Tour prices in 2026 run from 55 to 70 euros per person for the shared group format, placing the experience firmly in the $$ tier. The $60 estimate is the mid-range figure. Lunch and drinks are not typically included on half-day tours, though some operators offer an optional packed lunch add-on.",
       "bookingNote": "Book in advance through Viator (search Blue Lagoon speedboat Split half day) or Split Boat Trips (splitboattrips.com). Tours depart from the Riva in front of the old town, about a 10-minute walk from the cruise terminal. Bring swimwear, sunscreen, and cash for any lunch or drinks.",
       "tags": [
         "boat",
@@ -649,19 +649,18 @@
     {
       "id": "split-krka-waterfalls-national-park",
       "port": "Split",
-      "name": "Krka National Park Waterfalls Guided Day Excursion",
+      "name": "Krka National Park Waterfalls Half-Day Excursion",
       "tier": "$$$",
       "transport": "transport",
       "estimatedCost": 85,
       "duration": "half day",
       "description": "A guided small-group excursion by air-conditioned bus to Krka National Park, covering the travertine waterfall cascades and a panoramic boat cruise on the Krka River.",
-      "detail": "Krka National Park, about 80 kilometers north of Split, protects a series of travertine waterfall terraces along the Krka River, the most famous of which is the Skradinski Buk cascade where a turquoise chain of falls and pools spreads across a broad limestone shelf. Guided tours depart from outside Split's Golden Gate (Diocletian's Palace North Gate) by air-conditioned bus at 8:15 am and 11:15 am daily throughout the summer season. The bus ride to Skradin takes around 90 minutes. From Skradin, a panoramic boat ride along the lower Krka River deposits visitors at the base of the Skradinski Buk waterfall, where the park's main boardwalk trail covers the cascade system in 1 to 2 hours. Swimming in the falls was banned after 2019 to protect the ecosystem, but the viewpoints and the sound of the cascades remain spectacular. A licensed guide accompanies the group and provides commentary on the park ecology and history. Peak season (June to September) park entry is 30 euros per adult. A guided group tour package covering transport, guide, and park entry runs approximately 80 to 90 euros per person all-in. The $85 estimate reflects the combined cost at peak season rates on a guided group tour.",
+      "detail": "Krka National Park, about 80 kilometers north of Split, protects a series of travertine waterfall terraces along the Krka River, the most famous of which is the Skradinski Buk cascade where a turquoise chain of falls and pools spreads across a broad limestone shelf. Guided tours depart from outside Split's Golden Gate (Diocletian's Palace North Gate) by air-conditioned bus at 8:15 am and 11:15 am daily throughout the summer season. The bus ride to Skradin takes around 90 minutes. From Skradin, a panoramic boat ride along the lower Krka River deposits visitors at the base of the Skradinski Buk waterfall, where the park's main boardwalk trail covers the cascade system in 1 to 2 hours. Swimming in the falls was banned after 2019 to protect the ecosystem, but the viewpoints and the sound of the cascades remain spectacular. A licensed guide accompanies the group and provides commentary on the park ecology and history. Peak season (June to September) park entry is 30 euros per adult. A guided group tour package covering transport, guide, and park entry runs approximately 80 to 90 euros per person all-in. The $85 estimate reflects the combined cost at peak season rates on a guided group tour. The linked Viator tour also includes a short stop in the medieval town of Trogir on the return leg, a UNESCO-listed old town worth the extra hour.",
       "bookingNote": "Book through Krka Tour (krkatour.com), Pelican Tours Split (pelicantourssplit.com), or Viator (search Krka waterfalls guided tour from Split). Peak season park entry at 30 euros is sometimes bundled or paid separately at the gate; confirm before booking. Wear comfortable walking shoes and bring water and sun protection.",
       "tags": [
         "national-park",
         "scenic",
         "walking",
-        "nature",
         "guided-tour"
       ],
       "viatorUrl": "https://www.viator.com/tours/Split/Krka-Waterfalls-and-Trogir-Small-Group-Guided-Tour-from-Split/d4185-8463P13"
