@@ -68,6 +68,36 @@ export function renderCards(container, activities, selectedIds, { onAdd }) {
       e.stopPropagation();
       onAdd(a.id);
     });
+    card.querySelector('.close-x').addEventListener('click', e => {
+      e.stopPropagation();
+      collapseCard(card);
+    });
+    card.addEventListener('click', e => {
+      if (e.target.closest('a')) return; // let booking links work
+      if (!card.classList.contains('expanded')) expandCard(container, card);
+    });
     container.appendChild(card);
+  });
+}
+
+function expandCard(container, card) {
+  container.querySelectorAll('.card.expanded')
+    .forEach(c => c.classList.remove('expanded'));
+  card.classList.add('expanded');
+  // if the unfolded card overflows the viewport, bring it into view
+  requestAnimationFrame(() => {
+    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+}
+
+function collapseCard(card) {
+  card.classList.remove('expanded');
+}
+
+// click outside an expanded card dismisses it (single module-level listener)
+if (typeof document !== 'undefined') {
+  document.addEventListener('click', e => {
+    const expanded = document.querySelector('.card.expanded');
+    if (expanded && !expanded.contains(e.target)) collapseCard(expanded);
   });
 }
