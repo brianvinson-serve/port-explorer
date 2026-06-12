@@ -568,6 +568,142 @@
         "villages"
       ],
       "viatorUrl": null
+    },
+    {
+      "id": "split-diocletian-palace-riva-walk",
+      "port": "Split",
+      "name": "Diocletian's Palace Cellars and Riva Promenade",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 15,
+      "duration": "2-3 hrs",
+      "description": "A self-guided wander through a living 4th-century Roman palace whose courts and lanes are home to cafes, shops, and the city's daily life.",
+      "detail": "Split's cruise terminal puts passengers within a 5-minute flat walk along the waterfront to the Riva promenade and the Bronze Gate entrance of Diocletian's Palace. Built around 305 AD as a retirement fortress for the Roman Emperor Diocletian, the palace is not a museum ruin but a fully inhabited quarter where 3,000 people live inside the ancient walls. The Peristyle courtyard, the Cathedral of Saint Domnius (converted from Diocletian's mausoleum), the Vestibule rotunda, and the labyrinthine underground Cellars are all reached on foot from the gate. The Cellars occupy the full footprint of the palace and give a clear sense of its original scale; entry is 10 euros for adults, purchased at the kiosk in the Peristyle. The cathedral nave is free; a combined Purple Ticket covering the cathedral, crypt, baptistery, treasury, and bell tower is 15 euros. After the palace, the Riva promenade along the waterfront is a perfect place to sit with a coffee and watch the harbor. Budget roughly 10 to 15 euros for Cellars entry and coffee.",
+      "bookingNote": "No booking needed. Cellars entry is 10 euros paid at the Peristyle kiosk. The full cathedral complex Purple Ticket is 15 euros. Everything is an easy flat walk from the cruise pier along the Riva.",
+      "tags": [
+        "history",
+        "walking",
+        "architecture",
+        "archaeology"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "split-cathedral-bell-tower-marjan",
+      "port": "Split",
+      "name": "St Domnius Bell Tower Climb and Marjan Hill Walk",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 20,
+      "duration": "3-4 hrs",
+      "description": "Climb the 12th-century bell tower rising above Diocletian's Mausoleum for rooftop views, then hike the forested Marjan peninsula above the city.",
+      "detail": "The bell tower of the Cathedral of Saint Domnius is one of the most recognizable silhouettes in Dalmatia. The tower was built between the 12th and 16th centuries over the original Roman mausoleum of Diocletian, and the climb up its narrow spiral staircase (no elevator) opens to a stone terrace with unobstructed views over the palace rooftops, the Riva promenade, and the Adriatic islands. The bell tower is included in the combined Purple Ticket (15 euros) or available separately. After descending, a 15-minute walk west from the palace gates leads to the steps up Marjan Hill, Split's forested limestone peninsula rising to 178 meters. The network of shaded paths crosses viewpoints with panoramas over Brac and Hvar islands, passes several small medieval chapels, and descends to quiet coves below. The park is entirely free to enter. Budget 15 euros for the bell tower ticket and 5 euros for coffee; the Marjan walk itself costs nothing. Wear shoes with some grip on Marjan's rocky paths.",
+      "bookingNote": "No booking needed for the bell tower; buy the 15-euro Purple Ticket at the Peristyle kiosk to cover the full cathedral complex. Marjan Hill is free to enter from the steps near the west end of the old town. Start early in summer to beat the heat on the exposed viewpoints.",
+      "tags": [
+        "history",
+        "walking",
+        "views",
+        "hiking",
+        "architecture"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "split-old-town-guided-walking-tour",
+      "port": "Split",
+      "name": "Diocletian's Palace Small-Group Guided Walking Tour",
+      "tier": "$$",
+      "transport": "walkable",
+      "estimatedCost": 30,
+      "duration": "2 hrs",
+      "description": "A licensed guide leads a small group through the Roman palace, its Venetian-era layers, and the medieval lanes of the living old town, with stories not found in any guidebook.",
+      "detail": "Several well-reviewed operators run daily small-group guided walks of Diocletian's Palace departing from the Golden Gate (North Gate), the main entrance through which the Roman emperor would have passed. A licensed local historian leads the group through the Golden Gate, the Peristyle courtyard, the Cathedral of Saint Domnius and its converted-mausoleum interior, the Vestibule dome, and the underground Cellars, weaving together Roman, early Christian, Byzantine, and Venetian history across the palace's 1,700-year life. Group sizes are typically capped at 10 to 15. Cellars entry (10 euros) and any cathedral tickets are usually additional costs on top of the tour fee. Viator lists several versions of this tour starting from around 25 euros per person, with the small-group dedicated palace tour running approximately 28 to 35 euros. The $30 estimate reflects the mid-range small-group price excluding any entrance tickets. Tours run multiple times daily and are timed to fit cruise ship schedules.",
+      "bookingNote": "Book in advance through Viator (search Diocletian Palace walking tour Split) or GetYourGuide. Tours meet at the Golden Gate (North Gate), a 10-minute walk from the cruise pier. Cellars entry at 10 euros is typically additional; confirm what is included before booking.",
+      "tags": [
+        "history",
+        "guided-tour",
+        "walking",
+        "architecture"
+      ],
+      "viatorUrl": "https://www.viator.com/tours/Split/Diocletian-Palace-Walking-Tour/d4185-15026P29"
+    },
+    {
+      "id": "split-blue-lagoon-three-islands-boat",
+      "port": "Split",
+      "name": "Blue Lagoon and Three Islands Half-Day Speedboat Tour",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 60,
+      "duration": "4-5 hrs",
+      "description": "A shared speedboat tour calling at the crystal-clear Blue Lagoon off Drvenik Island for swimming, plus stops at Trogir and two smaller islands.",
+      "detail": "The Blue Lagoon, a sheltered turquoise cove between Drvenik Veliki and Krknjas Mali islands about 30 kilometers northwest of Split, is the most popular half-day boat destination from the port. Shared speedboat tours depart from Split's Riva waterfront daily throughout summer, typically at 9 am and 2 pm, carrying 10 to 20 passengers in open speedboats. The standard half-day circuit includes a 90-minute swim stop at the Blue Lagoon (water visibility reaches 15 to 20 meters), a brief stop in Trogir's UNESCO old town on the return leg, and passage past Solta and Ciovo islands. Snorkeling masks are sometimes included; check before booking. Tour prices in 2026 run from 55 to 70 euros per person for the shared group format, placing the experience firmly in the $$ tier. The $60 estimate is the mid-range figure. Lunch and drinks are not typically included on half-day tours, though some operators offer an optional packed lunch add-on. Viator lists this itinerary at d4185-20288P5.",
+      "bookingNote": "Book in advance through Viator (search Blue Lagoon speedboat Split half day) or Split Boat Trips (splitboattrips.com). Tours depart from the Riva in front of the old town, about a 10-minute walk from the cruise terminal. Bring swimwear, sunscreen, and cash for any lunch or drinks.",
+      "tags": [
+        "boat",
+        "swimming",
+        "scenic",
+        "islands"
+      ],
+      "viatorUrl": "https://www.viator.com/tours/Split/Blue-Lagoon-and-Beach-bar/d4185-20288P5"
+    },
+    {
+      "id": "split-krka-waterfalls-national-park",
+      "port": "Split",
+      "name": "Krka National Park Waterfalls Guided Day Excursion",
+      "tier": "$$$",
+      "transport": "transport",
+      "estimatedCost": 85,
+      "duration": "half day",
+      "description": "A guided small-group excursion by air-conditioned bus to Krka National Park, covering the travertine waterfall cascades and a panoramic boat cruise on the Krka River.",
+      "detail": "Krka National Park, about 80 kilometers north of Split, protects a series of travertine waterfall terraces along the Krka River, the most famous of which is the Skradinski Buk cascade where a turquoise chain of falls and pools spreads across a broad limestone shelf. Guided tours depart from outside Split's Golden Gate (Diocletian's Palace North Gate) by air-conditioned bus at 8:15 am and 11:15 am daily throughout the summer season. The bus ride to Skradin takes around 90 minutes. From Skradin, a panoramic boat ride along the lower Krka River deposits visitors at the base of the Skradinski Buk waterfall, where the park's main boardwalk trail covers the cascade system in 1 to 2 hours. Swimming in the falls was banned after 2019 to protect the ecosystem, but the viewpoints and the sound of the cascades remain spectacular. A licensed guide accompanies the group and provides commentary on the park ecology and history. Peak season (June to September) park entry is 30 euros per adult. A guided group tour package covering transport, guide, and park entry runs approximately 80 to 90 euros per person all-in. The $85 estimate reflects the combined cost at peak season rates on a guided group tour.",
+      "bookingNote": "Book through Krka Tour (krkatour.com), Pelican Tours Split (pelicantourssplit.com), or Viator (search Krka waterfalls guided tour from Split). Peak season park entry at 30 euros is sometimes bundled or paid separately at the gate; confirm before booking. Wear comfortable walking shoes and bring water and sun protection.",
+      "tags": [
+        "national-park",
+        "scenic",
+        "walking",
+        "nature",
+        "guided-tour"
+      ],
+      "viatorUrl": "https://www.viator.com/tours/Split/Krka-Waterfalls-and-Trogir-Small-Group-Guided-Tour-from-Split/d4185-8463P13"
+    },
+    {
+      "id": "split-bacvice-beach-afternoon",
+      "port": "Split",
+      "name": "Bacvice Beach and Local Picigin Game",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 18,
+      "duration": "2-3 hrs",
+      "description": "Spend an afternoon at Split's famous sandy-bottomed beach just south of the old town, the home of picigin, Croatia's beloved shallow-water ball sport.",
+      "detail": "Bacvice is the closest proper beach to Split's cruise terminal, a flat 15-minute walk south of the port along the waterfront. Unlike most Dalmatian beaches, Bacvice has a sandy bottom (a rarity on this rocky coast) and shallow water extending 30 to 40 meters out, making it ideal for wading, swimming, and for playing picigin, the traditional Bacvice game where players slap a small ball to each other without letting it touch the water, performed standing in ankle to knee-deep surf. Watching or joining an impromptu picigin game is one of the most distinctly local experiences available from any Adriatic cruise port. A set of two rental sunbeds with umbrella runs 20 to 30 euros for the day. The beach has a long row of waterfront cafe-bars serving grilled fish, cold beer, and the local rozata dessert. Budget 10 to 20 euros for a sunbed and drinks. The beach is public; no ticket or reservation is needed to swim or play in the water. La Playa, the main beach bar, occupies the central stretch of Bacvice and has a good waterfront terrace.",
+      "bookingNote": "No booking needed. Bacvice is a public beach and free to enter the water. Sunbed rental (20 to 30 euros per pair with umbrella) is optional and paid on the beach. Walk south from the cruise terminal for about 15 minutes, past the ferry port, to reach the beach.",
+      "tags": [
+        "beach",
+        "swimming",
+        "local-culture",
+        "walking"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "split-private-hvar-pakleni-speedboat",
+      "port": "Split",
+      "name": "Private Full-Day Hvar Town and Pakleni Islands Speedboat",
+      "tier": "$$$$",
+      "transport": "transport",
+      "estimatedCost": 180,
+      "duration": "full day",
+      "description": "A captained private speedboat day to Hvar town's Venetian harbor and the pine-forested Pakleni Islands coves, at your own pace and schedule.",
+      "detail": "Hvar Island, about 70 kilometers from Split by sea, is one of the most glamorous destinations on the Adriatic, and a private speedboat charter is the fastest and most flexible way to reach it from the cruise port. A private vessel with a licensed captain picks up from the Riva waterfront and crosses to Hvar town in roughly 45 to 60 minutes depending on conditions. In Hvar, the Venetian-era St Stephen's Cathedral and loggia front the harbor, the Spanish Fortress above town offers panoramic island views, and the Hvar Lavender Heritage Museum (5 euros) explores the island's famous lavender production. After Hvar, the boat crosses to the Pakleni Islands, a 20-island chain of sheltered coves with clear water ideal for snorkeling and swimming. Popular stops include the coves at Palmizana (accessible cafe-restaurant) and Stipanska. Return to Split by late afternoon. Private speedboats accommodating up to 6 passengers from Split tours operators such as Split-Tours.com run approximately 700 to 800 euros per vessel for a full day, placing the per-person cost at around $170 to $190 for two travelers sharing. The $180 estimate assumes two travelers. With four to six travelers the per-person cost drops substantially to roughly $120 to $140.",
+      "bookingNote": "Book directly with Split-Tours.com (split-tours.com) or search private speedboat Hvar Split on Viator. Vessel rates run approximately 700 to 800 euros per day. The $180 per person estimate assumes two travelers sharing; with four to six travelers the cost drops to roughly $120 to $140 per person. Hvar town fortress entry (10 euros) and any lunch costs are additional. Operators guarantee return to the pier before sail-away.",
+      "tags": [
+        "boat",
+        "islands",
+        "scenic",
+        "private",
+        "swimming"
+      ],
+      "viatorUrl": null
     }
   ]
 }
