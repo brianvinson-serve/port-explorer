@@ -4,7 +4,7 @@ import {
   createFilterState, toggleTransport, toggleTier, clearFilters,
   applyFilters, renderCards
 } from './filters.js';
-import { renderTripPanel } from './trip-panel.js';
+import { renderTripPanel, formatItinerary } from './trip-panel.js';
 
 const TIERS = ['$', '$$', '$$$', '$$$$'];
 
@@ -103,8 +103,46 @@ function removeActivity(id) {
   renderPanel();
 }
 
+function showToast(message, onClick) {
+  const root = document.getElementById('toast-root');
+  const el = document.createElement('div');
+  el.className = 'toast';
+  el.textContent = message;
+  if (onClick) {
+    el.addEventListener('click', () => {
+      el.remove();
+      onClick();
+    });
+  }
+  root.appendChild(el);
+  setTimeout(() => el.remove(), 6000);
+}
+
 function openExportModal() {
-  // lands in Task 17
+  const text = formatItinerary(state.selections, getActivities());
+  const root = document.getElementById('modal-root');
+  root.innerHTML = `
+    <div class="overlay">
+      <div class="modal export-modal">
+        <button class="close-x" aria-label="Close">&times;</button>
+        <h2>Your Trip Summary</h2>
+        <textarea readonly rows="16"></textarea>
+        <button id="copy-btn" class="export-btn">Copy to Clipboard</button>
+      </div>
+    </div>`;
+  const ta = root.querySelector('textarea');
+  ta.value = text;
+  root.querySelector('.close-x').addEventListener('click', () => { root.innerHTML = ''; });
+  root.querySelector('#copy-btn').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      showToast('Itinerary copied.');
+    } catch {
+      ta.focus();
+      ta.select();
+      showToast('Press Cmd+C to copy.');
+    }
+  });
 }
 
 async function init() {
