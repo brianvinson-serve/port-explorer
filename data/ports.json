@@ -415,6 +415,159 @@
         "national-park"
       ],
       "viatorUrl": "https://www.viator.com/tours/Kotor/THE-GREAT-MONTENEGRO-TOUR/d23078-142444P6"
+    },
+    {
+      "id": "dubrovnik-gruz-market-promenade",
+      "port": "Dubrovnik",
+      "name": "Gruz Harbor Market and Waterfront Promenade",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 8,
+      "duration": "1-2 hrs",
+      "description": "A leisurely morning at the lively Gruz market and harbor promenade, steps from the cruise pier, with local produce, cheese, and strong Dalmatian coffee.",
+      "detail": "The Gruz morning market (Trznica Gruz) sits directly across the harbor road from the cruise terminal and is one of the best local produce markets in Dalmatia. Farmers from the Konavle region bring seasonal vegetables, dried figs, homemade olive oil, lavender, and local cheeses. The adjacent Gruz Promenada stretches along the harbor waterfront with several waterfront cafes where locals start the day with a kava. Look for the Musical Fence installation and the Sound Mirrors art pieces along the promenade, both free interactive curiosities. Budget 5 to 10 euros for market purchases and a coffee. The market is most active early morning until around noon. No transport needed: the market entrance is a 3-minute walk from the gangway along the main harbor road.",
+      "bookingNote": "No booking needed. The Gruz market is free to browse; bring a few euros cash for produce, cheese, or a coffee at a waterfront cafe. Market is liveliest from 7 am to noon.",
+      "tags": [
+        "local-culture",
+        "food",
+        "walking",
+        "waterfront"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "dubrovnik-lapad-beach-walk",
+      "port": "Dubrovnik",
+      "name": "Lapad Bay Beach Walk",
+      "tier": "$",
+      "transport": "walkable",
+      "estimatedCost": 10,
+      "duration": "2-3 hrs",
+      "description": "A 25-minute waterfront walk from Gruz pier along the Lapad promenade to a pebble beach cove with calm Adriatic swimming and cafe-lined shores.",
+      "detail": "From the Gruz cruise terminal, the Lapad Bay promenade runs approximately 2.5 km southwest along the coastline, passing waterfront restaurants and local residential neighborhoods before arriving at the sheltered pebble beaches of Lapad Bay. The walk takes about 25 to 30 minutes at an easy pace and requires no transport. Lapad Bay is quieter than Old Town-adjacent Banje Beach and popular with local families. The pebble shore has steps into the clear Adriatic for swimming; conditions are calm because the bay is sheltered from the open sea. Several beach-side cafes and an ice cream stand dot the promenade near the beach. Budget 5 to 10 euros for a drink or two. Bring water shoes if you plan to wade on the pebbles. No facilities fee or beach ticket required.",
+      "bookingNote": "No booking needed. The beach is public and free. Walk southwest from the Gruz pier along the harbor promenade for about 25 to 30 minutes. Water shoes recommended for pebble entry.",
+      "tags": [
+        "beach",
+        "walking",
+        "swimming",
+        "waterfront"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "dubrovnik-got-walking-tour",
+      "port": "Dubrovnik",
+      "name": "Game of Thrones Walking Tour of King's Landing",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 35,
+      "duration": "2-3 hrs",
+      "description": "A guided walking tour through Dubrovnik's Old Town identifying the real filming locations used for King's Landing in HBO's Game of Thrones.",
+      "detail": "Dubrovnik stood in for King's Landing through all eight seasons of Game of Thrones, and several specialist operators run 2-hour walking tours that identify the exact locations used for iconic scenes. The route departs from Pile Gate, works through the Stradun and the lanes of the old town, identifying the locations of the Purple Wedding, the walk of shame steps on Jesuit Staircase, the Red Keep (Fort Lovrijenac), the Small Council chambers, and other fan-favorite scenes. Guides show side-by-side photos of the real location versus the HBO footage. Group tours run in sizes of 8 to 20 and typically cost 29 to 39 euros per person, depending on whether Fort Lovrijenac entry (15 euros) is included. The $35 estimate reflects the mid-range group rate with fort entry included. Several operators meet at Pile Gate, which is reached from Gruz by bus line 1A or 1B (2 to 3 euros) in about 15 minutes. Viator lists multiple versions of this tour from around $29 per person.",
+      "bookingNote": "Book through Viator or GetYourGuide by searching Game of Thrones walking tour Dubrovnik. Tours depart from Pile Gate, reached by city bus 1A or 1B from Gruz pier in about 15 minutes. Check whether Fort Lovrijenac entry (15 euros) is included in the quoted price.",
+      "tags": [
+        "film-location",
+        "guided-tour",
+        "walking",
+        "history"
+      ],
+      "viatorUrl": "https://www.viator.com/tours/Dubrovnik/Classic-GOT-tour/d904-3494P9"
+    },
+    {
+      "id": "dubrovnik-city-walls-walk",
+      "port": "Dubrovnik",
+      "name": "Dubrovnik City Walls Walk",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 45,
+      "duration": "1-2 hrs",
+      "description": "Walk the full circuit of Dubrovnik's iconic 2-km medieval walls above the Old Town, with panoramic views over orange-tiled rooftops and the Adriatic.",
+      "detail": "Dubrovnik's city walls are among the best-preserved medieval fortifications in Europe and the single most-visited attraction in the city. The 2-km circuit at heights of up to 25 meters delivers unbroken views over the Old Town rooftops, Lokrum Island, and the open Adriatic. Entry is 40 euros per adult in summer (approximately $43), purchased at the wall entrance near Pile Gate or St. Luke's Gate. The ticket also includes Fort Lovrijenac. The walls are accessed from Gruz pier by city bus 1A or 1B (about 15 minutes, roughly 2 to 3 euros) or taxi (10 to 15 euros). The circuit takes 60 to 90 minutes at a relaxed pace including photo stops. Summer is extremely crowded and hot; go first thing in the morning to beat both. Walls open at 8 am in summer. The Viator skip-the-line admission ticket (d904-5690P54) allows pre-purchase to avoid on-site queues.",
+      "bookingNote": "Buy online in advance through shop.citywallsdubrovnik.hr or Viator to avoid queues. Adult ticket is 40 euros ($43). Arrive at 8 am opening to beat crowds and midday heat. Reached from Gruz pier by bus 1A or 1B or a short taxi ride.",
+      "tags": [
+        "history",
+        "walking",
+        "views",
+        "architecture"
+      ],
+      "viatorUrl": "https://www.viator.com/tours/Dubrovnik/Dubrovnik-city-walls-Admission-Ticket/d904-5690P54"
+    },
+    {
+      "id": "dubrovnik-banje-beach-club",
+      "port": "Dubrovnik",
+      "name": "Banje Beach Club Day",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 60,
+      "duration": "half day",
+      "description": "A premium beach club day on Dubrovnik's most glamorous pebble beach, directly outside the Old Town walls, with sun loungers, cocktails, and views of Lokrum Island.",
+      "detail": "Banje Beach is the closest beach to the Old Town walls, a 5-minute walk through Ploce Gate from the Stradun. The Banje Beach Club section of the beach operates a tiered lounger and day-bed system. A standard pair of loungers with umbrella runs approximately 40 to 50 euros per set; a premium Balinese day-bed for two is higher. Adding cocktails and lunch from the beachside bar and restaurant typically brings total spend per person to 55 to 70 euros, placing it comfortably in the $$ tier. The beach is pebbly (water shoes recommended) and the Adriatic here is clear and calm most days. The backdrop of the Old Town walls rising directly above the beach is the defining visual of Dubrovnik summer. From Gruz pier, take bus 1A or 1B to Pile Gate, then walk 10 minutes through the old town to Ploce Gate and down to the beach. A taxi from Gruz to Banje is approximately 12 to 15 euros.",
+      "bookingNote": "Reserve a day bed or lounger set in advance at banjebeach.com, especially in July and August when spots sell out early. Walk-up sunbeds are sometimes available at the gate on arrival. Water shoes recommended for pebble beach entry.",
+      "tags": [
+        "beach-club",
+        "swimming",
+        "views",
+        "luxury"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "dubrovnik-mount-srd-cable-car",
+      "port": "Dubrovnik",
+      "name": "Mount Srd Cable Car and Napoleonic Fortress",
+      "tier": "$$",
+      "transport": "transport",
+      "estimatedCost": 35,
+      "duration": "1-2 hrs",
+      "description": "A 4-minute cable car ride to 412-meter Mount Srd above Dubrovnik, with a 360-degree panorama over the city, Lokrum Island, and the Dalmatian coast.",
+      "detail": "The Dubrovnik Cable Car lower station sits above Pile Gate in the Gornji Kono neighborhood, approximately 15 minutes from Gruz pier by taxi or city bus. The gondola rises 405 vertical meters in under 4 minutes to the summit of Mount Srd, the limestone ridge that forms the dramatic backdrop of Dubrovnik. At the top, the panorama spans the entire Old Town, the curve of the Adriatic toward Montenegro, Lokrum Island directly below, and on clear days the Elaphiti Islands to the northwest. The upper station has a cafe with terrace seating and the Imperial Fortress, a Napoleonic-era fortification that now houses the Museum of the Homeland War documenting the 1991 to 1995 siege of Dubrovnik. Museum entry is included in the cable car ticket. Return ticket price is approximately 30 euros per adult ($33). The cable car runs daily from April through October. Booking online in advance is strongly recommended in peak summer as queues can reach 45 to 60 minutes.",
+      "bookingNote": "Buy tickets online at dubrovnikcablecar.com or Viator to skip queues. Return adult ticket is approximately 30 euros. Take a taxi from Gruz (10 to 12 euros) or city bus 1A or 1B to Pile Gate and walk up to the lower station.",
+      "tags": [
+        "views",
+        "scenic",
+        "history",
+        "hiking"
+      ],
+      "viatorUrl": null
+    },
+    {
+      "id": "dubrovnik-lokrum-sea-kayak",
+      "port": "Dubrovnik",
+      "name": "Sea Kayak to Lokrum Island and Betina Cave",
+      "tier": "$$$",
+      "transport": "transport",
+      "estimatedCost": 80,
+      "duration": "half day",
+      "description": "A small-group sea kayaking tour from Dubrovnik's shoreline around the Old Town walls and across to Lokrum Island, with snorkeling at Betina Cave.",
+      "detail": "Multiple operators run half-day sea kayaking tours that launch from the beach below Banje or from a point near Old Town, paddle around the base of the historic city walls for close-up perspectives unavailable from land, and cross the 600-meter channel to Lokrum Island. On Lokrum, the route follows the island's rocky coast to Betina Cave, a submerged sea cave where light filters through the water and snorkeling equipment is provided for a swim stop. Return paddle is with the guide back to the launch point. Tours run in groups of 6 to 12 with single and double kayak options. All equipment (kayak, paddle, life jacket, dry bag, snorkel gear) is included. Prices range from 35 euros for a basic 2-hour tour to 90 euros for a 4-hour half-day with snorkeling and a fruit break. The $80 estimate reflects a 3.5 to 4 hour half-day tour with snorkeling included. From Gruz, take a taxi or bus to Pile Gate area where most operators meet. Viator lists this product at d904-7684P7.",
+      "bookingNote": "Book in advance through Viator (search Dubrovnik Lokrum kayak) or directly with local operators such as X-Adventure Dubrovnik. Tours depart from near Pile Gate or Banje Beach. Confirm the meeting point when booking.",
+      "tags": [
+        "kayaking",
+        "swimming",
+        "scenic",
+        "adventure"
+      ],
+      "viatorUrl": "https://www.viator.com/tours/Dubrovnik/Kayaking-around-Lokrum-island/d904-7684P7"
+    },
+    {
+      "id": "dubrovnik-private-peljesac-wine-tour",
+      "port": "Dubrovnik",
+      "name": "Private Full-Day Peljesac Peninsula Wine and Oyster Tour",
+      "tier": "$$$$",
+      "transport": "transport",
+      "estimatedCost": 200,
+      "duration": "full day",
+      "description": "A chauffeured private full-day tour to the Peljesac Peninsula wine country and the oyster beds of Ston, including tastings at three family wineries and a seafood lunch.",
+      "detail": "The Peljesac Peninsula, 80 kilometers northwest of Dubrovnik, produces some of Croatia's most celebrated red wines, including Dingac and Postup made from the indigenous Plavac Mali grape grown on steep south-facing terraces above the sea. A private tour from Dubrovnik cruise port takes a dedicated driver and guide north along the coast road and over the Peljesac Bridge (opened 2022) to the peninsula, with stops at two to three family-owned wineries for cellar tours and seated tastings of 6 to 10 wines. The medieval walled town of Ston, famous for its 5.5-kilometer defensive walls and its Mali Ston oyster beds, is included for lunch featuring fresh oysters harvested from the bay, grilled fish, and local white wine. The return drive offers optional stops at Trsteno Arboretum (a 500-year-old Renaissance garden). Private vehicle tours run 400 to 500 euros per vehicle for the full day. The $200 per person estimate assumes two travelers sharing; with three to four travelers the cost drops to approximately $115 to $140 per person. Tour length is 8 to 9 hours. Operators guarantee return to the pier before sail-away.",
+      "bookingNote": "Book through Viator (search Peljesac wine tour Dubrovnik private), GetYourGuide, or direct with Dubrovnik-tours.hr. Vehicle rates run 400 to 500 euros per vehicle total. The $200 per person estimate assumes two travelers sharing; with three to four travelers cost drops to roughly $115 to $140 per person. Winery tastings and lunch are typically included; confirm details when booking.",
+      "tags": [
+        "wine",
+        "food",
+        "private",
+        "scenic",
+        "villages"
+      ],
+      "viatorUrl": null
     }
   ]
 }
