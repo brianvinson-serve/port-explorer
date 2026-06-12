@@ -24,3 +24,50 @@ export function applyFilters(activities, state) {
     return true;
   });
 }
+
+// --- DOM rendering (browser only, not unit tested) ---
+
+function bookingHtml(a) {
+  if (a.viatorUrl) {
+    return `<a href="${a.viatorUrl}" target="_blank" rel="noopener">Book on Viator</a>`;
+  }
+  return `<span class="badge direct">Book Direct</span> ${a.bookingNote}`;
+}
+
+function cardHtml(a, isSelected) {
+  const transportLabel = a.transport === 'walkable' ? 'Walkable' : 'Requires Transport';
+  return `
+    <button class="close-x" aria-label="Close">&times;</button>
+    <div class="card-badges">
+      <span class="badge tier">${a.tier}</span>
+      <span class="badge transport">${transportLabel}</span>
+    </div>
+    <h3>${a.name}</h3>
+    <p class="desc">${a.description}</p>
+    <div class="detail">
+      <p>${a.detail}</p>
+      <p class="booking">${bookingHtml(a)}</p>
+      <p class="duration">Duration: ${a.duration}</p>
+      <div class="tags">${a.tags.map(t => `<span class="chip">${t}</span>`).join('')}</div>
+    </div>
+    <div class="card-footer">
+      <span class="cost">~$${a.estimatedCost} pp</span>
+      <button class="add-btn" ${isSelected ? 'disabled' : ''}>${isSelected ? 'Added' : 'Add to Trip'}</button>
+    </div>`;
+}
+
+export function renderCards(container, activities, selectedIds, { onAdd }) {
+  container.innerHTML = '';
+  activities.forEach((a, i) => {
+    const card = document.createElement('article');
+    card.className = 'card';
+    card.style.setProperty('--i', i);
+    card.dataset.id = a.id;
+    card.innerHTML = cardHtml(a, selectedIds.includes(a.id));
+    card.querySelector('.add-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      onAdd(a.id);
+    });
+    container.appendChild(card);
+  });
+}
