@@ -1,9 +1,10 @@
 // js/app.js
-import { loadPorts, getActivitiesForPort, PORTS } from './data.js';
+import { loadPorts, getActivities, getActivitiesForPort, PORTS } from './data.js';
 import {
   createFilterState, toggleTransport, toggleTier, clearFilters,
   applyFilters, renderCards
 } from './filters.js';
+import { renderTripPanel } from './trip-panel.js';
 
 const TIERS = ['$', '$$', '$$$', '$$$$'];
 
@@ -80,10 +81,30 @@ function switchPort(port) {
   }, 180);
 }
 
+function renderPanel() {
+  renderTripPanel(
+    document.getElementById('trip-panel'),
+    state.selections,
+    getActivities(),
+    { onRemove: removeActivity, onExport: openExportModal }
+  );
+}
+
 function addActivity(id) {
-  // persistence lands in Task 18; local-only for now
-  if (!state.selections.includes(id)) state.selections.push(id);
+  if (state.selections.includes(id)) return;
+  state.selections.push(id);
   renderGrid();
+  renderPanel();
+}
+
+function removeActivity(id) {
+  state.selections = state.selections.filter(s => s !== id);
+  renderGrid();
+  renderPanel();
+}
+
+function openExportModal() {
+  // lands in Task 17
 }
 
 async function init() {
@@ -91,6 +112,7 @@ async function init() {
   renderTabs();
   renderFilterStrip();
   renderGrid();
+  renderPanel();
 }
 
 init();

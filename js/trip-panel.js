@@ -39,3 +39,46 @@ export function formatItinerary(selectedIds, activities, date = new Date()) {
   lines.push(`ESTIMATED TOTAL: ~$${computeTotal(selectedIds, activities)}`);
   return lines.join('\n');
 }
+
+// --- DOM rendering (browser only, not unit tested) ---
+
+export function renderTripPanel(container, selectedIds, activities, { onRemove, onExport }) {
+  const groups = groupByPort(selectedIds, activities);
+  const total = computeTotal(selectedIds, activities);
+  const hasItems = selectedIds.length > 0;
+
+  let body;
+  if (!hasItems) {
+    body = `<p class="trip-empty">Add activities to build your trip.</p>`;
+  } else {
+    body = groups.map(g => `
+      <div class="trip-group">
+        <span class="port-stamp">${g.port} &middot; ${g.subtitle}</span>
+        ${g.items.map(a => `
+          <div class="trip-item" data-id="${a.id}">
+            <span class="name">${a.name}</span>
+            <span class="cost">~$${a.estimatedCost}</span>
+            <button class="remove-btn" aria-label="Remove ${a.name}">&times;</button>
+          </div>`).join('')}
+      </div>`).join('');
+  }
+
+  container.innerHTML = `
+    <h2>Your Trip</h2>
+    ${body}
+    <div class="trip-total">
+      <span>Estimated total (pp)</span>
+      <span class="cost">~$${total}</span>
+    </div>
+    <button class="export-btn" ${hasItems ? '' : 'disabled title="Add activities to your trip first"'}>
+      Export Itinerary
+    </button>`;
+
+  container.querySelectorAll('.remove-btn').forEach(btn =>
+    btn.addEventListener('click', () =>
+      onRemove(btn.closest('.trip-item').dataset.id))
+  );
+  container.querySelector('.export-btn').addEventListener('click', () => {
+    if (hasItems) onExport();
+  });
+}
