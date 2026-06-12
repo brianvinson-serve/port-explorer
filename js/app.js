@@ -1,5 +1,5 @@
 // js/app.js
-import { loadPorts, getActivitiesForPort } from './data.js';
+import { loadPorts, getActivitiesForPort, PORTS } from './data.js';
 import {
   createFilterState, toggleTransport, toggleTier, clearFilters,
   applyFilters, renderCards
@@ -54,6 +54,32 @@ function renderGrid() {
   renderCards(grid, visible, state.selections, { onAdd: addActivity });
 }
 
+function renderTabs() {
+  const el = document.getElementById('port-tabs');
+  el.innerHTML = PORTS.map(p => `
+    <button class="port-tab ${p.name === state.activePort ? 'active' : ''}" data-port="${p.name}">
+      ${p.name}
+      <span class="subtitle">${p.subtitle}</span>
+    </button>`).join('');
+  el.querySelectorAll('.port-tab').forEach(btn =>
+    btn.addEventListener('click', () => switchPort(btn.dataset.port))
+  );
+}
+
+function switchPort(port) {
+  if (port === state.activePort) return;
+  state.activePort = port;
+  renderTabs();
+  const grid = document.getElementById('card-grid');
+  grid.classList.add('exiting');
+  setTimeout(() => {
+    grid.classList.remove('exiting');
+    renderGrid();
+    grid.classList.add('entering');
+    setTimeout(() => grid.classList.remove('entering'), 320);
+  }, 180);
+}
+
 function addActivity(id) {
   // persistence lands in Task 18; local-only for now
   if (!state.selections.includes(id)) state.selections.push(id);
@@ -62,6 +88,7 @@ function addActivity(id) {
 
 async function init() {
   await loadPorts();
+  renderTabs();
   renderFilterStrip();
   renderGrid();
 }
