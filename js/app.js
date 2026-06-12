@@ -5,6 +5,7 @@ import {
   applyFilters, renderCards
 } from './filters.js';
 import { renderTripPanel, formatItinerary } from './trip-panel.js';
+import { fetchSelections, saveSelections, ApiError } from './github-api.js';
 
 const TIERS = ['$', '$$', '$$$', '$$$$'];
 
@@ -92,15 +93,19 @@ function renderPanel() {
 
 function addActivity(id) {
   if (state.selections.includes(id)) return;
-  state.selections.push(id);
+  const previous = [...state.selections];
+  state.selections = [...state.selections, id];
   renderGrid();
   renderPanel();
+  persist(previous);
 }
 
 function removeActivity(id) {
+  const previous = [...state.selections];
   state.selections = state.selections.filter(s => s !== id);
   renderGrid();
   renderPanel();
+  persist(previous);
 }
 
 function showToast(message, onClick) {
@@ -116,6 +121,63 @@ function showToast(message, onClick) {
   }
   root.appendChild(el);
   setTimeout(() => el.remove(), 6000);
+}
+
+function showPatModal() {
+  return new Promise(resolve => {
+    const root = document.getElementById('modal-root');
+    root.innerHTML = `
+      <div class="overlay">
+        <div class="modal pat-modal">
+          <div class="wordmark">port-explorer</div>
+          <p>Your GitHub token lets us save your trip selections.</p>
+          <label for="pat-input">GitHub personal access token</label>
+          <input id="pat-input" type="password" autocomplete="off" spellcheck="false">
+          <button id="pat-save" class="export-btn">Save and Continue</button>
+        </div>
+      </div>`;
+    const input = root.querySelector('#pat-input');
+    const save = () => {
+      const value = input.value.trim();
+      if (!value) return;
+      localStorage.setItem('port-explorer-pat', value);
+      state.token = value;
+      root.innerHTML = '';
+      resolve(value);
+    };
+    root.querySelector('#pat-save').addEventListener('click', save);
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') save(); });
+    input.focus();
+  });
+}
+
+function reprompt() {
+  showToast('GitHub token invalid or expired. Tap here to re-enter.', async () => {
+    await showPatModal();
+  });
+}
+
+async function persist(previousSelections) {
+  try {
+    if (!state.sha) {
+      // initial load failed earlier; recover the file sha before writing
+      const remote = await fetchSelections(state.token);
+      state.sha = remote.sha;
+    }
+    state.sha = await saveSelections(state.token, state.selections, state.sha);
+  } catch (err) {
+    // roll back symmetrically: failed add re-removes, failed remove re-adds
+    state.selections = previousSelections;
+    renderGrid();
+    renderPanel();
+    if (err instanceof ApiError && err.kind === 'auth') {
+      reprompt();
+    } else if (err instanceof ApiError && err.kind === 'rate-limit') {
+      showToast('Could not save. GitHub rate limit hit. Try again in a moment.');
+    } else {
+      showToast('Could not save. Check your connection and try again.');
+    }
+  }
 }
 
 function openExportModal() {
@@ -146,7 +208,26 @@ function openExportModal() {
 }
 
 async function init() {
+  if (!state.token) await showPatModal();
   await loadPorts();
+  try {
+    const remote = await fetchSelections(state.token);
+    state.selections = remote.selections;
+    state.sha = remote.sha;
+  } catch (err) {
+    if (err instanceof ApiError && err.kind === 'auth') {
+      await showPatModal();
+      try {
+        const remote = await fetchSelections(state.token);
+        state.selections = remote.selections;
+        state.sha = remote.sha;
+      } catch {
+        showToast('Could not load saved selections. Starting empty.');
+      }
+    } else {
+      showToast('Could not load saved selections. Starting empty.');
+    }
+  }
   renderTabs();
   renderFilterStrip();
   renderGrid();
