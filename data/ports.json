@@ -123,7 +123,7 @@
       "description": "Watch the world's largest animated astronomical clock perform its 12-minute bronze-figure spectacle at noon, then explore the Norman cathedral steps away.",
       "detail": "Piazza del Duomo is a flat 5-minute walk from the Messina cruise terminal along the waterfront. The bell tower alongside the cathedral houses an extraordinary 1933 Strasbourg-built astronomical clock with 54 bronze mechanical figures that animate at noon daily. Set to Schubert's Ave Maria, a golden lion roars, a rooster crows, and sculptural carousels depicting the phases of life and Messina's religious history run for 12 minutes. Bell tower admission is 5 euros, or 7.50 euros for a combined tower and treasury ticket, paid at the door. Arrive by 11:40 to claim a good vantage point. Inside the cathedral, Byzantine-style mosaics and ornate side chapels are free to enter. Just outside, the 1553 Orion Fountain by a student of Michelangelo is one of Sicily's finest Renaissance sculptures. Allow 90 minutes total including the noon show.",
       "bookingNote": "No booking needed. Tower admission is 5 euros, or 7.50 euros combined with the treasury, paid at the door. Arrive before 11:40 to see the noon clock show.",
-      "tags": ["history", "walking", "architecture", "free-entry"],
+      "tags": ["history", "walking", "architecture"],
       "viatorUrl": null
     },
     {
@@ -150,7 +150,7 @@
       "duration": "2-3 hrs",
       "description": "Two original Caravaggio canvases and masterworks by the Renaissance great Antonello da Messina in the city's premier art museum, reached by tram from the port.",
       "detail": "The Museo Regionale Interdisciplinare di Messina (MuMe) holds two of Caravaggio's most celebrated Sicilian works: the Adoration of the Shepherds (1609) and the Resurrection of Lazarus (1609), both painted during his Messina period and never moved from the city. The collection also includes panels by Antonello da Messina, the 15th-century master who introduced Flemish oil technique to Italy, as well as tapestries, sculptures, and decorative arts spanning several centuries. Adult admission is 9 euros. The museum sits about 2 kilometers north of the cruise pier, just past easy walking range, but Messina's tramway makes it effortless: catch Tram Line 28 at the Municipio stop directly opposite the terminal and ride to the Museo or Ringo stop (the museum is between the two). A tram ride costs roughly 1.50 euros each way. Budget 3 euros for transport and 9 euros admission, plus time for the 2 to 3 hour visit. The museum is closed on Mondays.",
-      "bookingNote": "Tickets are 9 euros for adults, paid at the museum entrance. Admission is free on the first Sunday of every month. Catch Tram Line 28 at the Municipio stop (opposite the cruise terminal) toward the Museo stop. Confirm the museum is not closed for a Monday stop.",
+      "bookingNote": "Tickets are 9 euros for adults, paid at the museum entrance. Admission is free on the first Sunday of every month. The museum is closed on Mondays; check your port day before planning this visit. Catch Tram Line 28 at the Municipio stop (opposite the cruise terminal) toward the Museo stop.",
       "tags": ["art", "history", "museum"],
       "viatorUrl": null
     },
@@ -161,12 +161,12 @@
       "tier": "$$",
       "transport": "walkable",
       "estimatedCost": 45,
-      "duration": "3 hrs",
+      "duration": "2-3 hrs",
       "description": "A guided 3-hour walking food tour through Messina's historic center with four tasting stops covering granita, arancino, cannolo, and focaccia Messinese.",
       "detail": "A local food expert leads a small group (max 12) on a flat walking circuit starting from near the cruise pier and winding through the centro storico. The route hits the Piazza del Duomo and the Church of the Annunziata dei Catalani before stopping at four local producers for tastings: a rosticceria for the cone-shaped Arancino Messinese, a focacceria for the city's distinctive stuffed focaccia, a pastry shop for cannoli filled to order, and a bar for granita con brioche. The tour explains how Messina's street food tradition differs from Palermo and Catania. Vegetarian options are available at every stop. The operator Discover Messina lists this tour on Viator and GetYourGuide; it runs most mornings and is timed to allow return to the pier by midday. Group sizes stay small. The 45-dollar estimate reflects the guided walking tour price including all four tastings.",
-      "bookingNote": "Book in advance through Viator or GetYourGuide by searching Messina street food tour. Tours run most mornings and are timed for cruise ship schedules.",
+      "bookingNote": "Search Viator or GetYourGuide for a Messina street food tour and pre-book in advance, especially during peak season. Tours run most mornings and are timed for cruise ship schedules, typically returning to the pier by early afternoon.",
       "tags": ["food", "walking", "guided-tour", "local-culture"],
-      "viatorUrl": "https://www.viator.com/tours/Sicily/Guided-tour-of-the-church-of-Annunziata-dei-Catalani/d205-23689P45"
+      "viatorUrl": null
     },
     {
       "id": "messina-taormina-greek-theatre-shared",
